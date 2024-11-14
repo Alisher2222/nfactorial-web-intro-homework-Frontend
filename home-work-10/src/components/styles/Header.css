@@ -1,0 +1,22 @@
+.logo{
+    height:70px;
+    width:100%;
+}
+.logo-text{
+    font-family: Kanit;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.hello-world{
+    height:248px;
+    width:100%;
+    display:flex;
+    align-items: center;
+}
+.hello-world-text{
+    font-family: Kanit;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 120px;
+}
