@@ -1,0 +1,77 @@
+.sidebar{
+    height: 850px;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px
+}
+.options-text{
+    font-family: Roboto;
+}
+.options-button{
+    background-color: #1DA1F2;
+    font-family: Roboto;
+    width:210px;
+    height:47px;
+    border-radius: 50px;
+}
+.user-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width: 40px;
+    height:40px;
+    border-radius: 50px;
+}
+.user-name{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 17.58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#FFFFFF;
+}
+.user-profile-data{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.user-tag{
+    color:#6E767D;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 17.58px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.additional-icon{
+    width:16px;
+    height:16px;
+}
+.user-profile-left{
+    display: flex;
+    flex-direction: row;
+}
+.user-profile-left{
+    display: flex;
+    gap:10px;
+}

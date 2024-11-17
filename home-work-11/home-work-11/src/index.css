@@ -1,0 +1,14 @@
+*{
+  margin:0;
+  padding:0;
+  color:white;
+}
+body{
+  background-color: black;
+  padding-left: 107px;
+  padding-top: 5px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
