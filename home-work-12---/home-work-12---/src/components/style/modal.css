@@ -1,0 +1,38 @@
+.modal-container{
+    background-color: #e4e6e7;
+    width: 268px;
+    height: 234px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px black;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 70px;
+    bottom: 20px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+}
+.modal-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+.modal-input{
+    width: 236px;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-button{
+    width: 76px;
+    height: 40px;
+    color:white;
+    background-color: #081e34;
+    border: none;
+    border-radius: 30px;
+}

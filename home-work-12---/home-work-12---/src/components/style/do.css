@@ -1,0 +1,17 @@
+.option{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    position: relative;
+}
+.option-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.option-text-done{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: line-through;
+}

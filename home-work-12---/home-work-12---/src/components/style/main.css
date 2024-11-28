@@ -1,0 +1,75 @@
+.container{
+    padding: 5% 5%;
+}
+.header{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.header-title{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.header-description{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.button-active{
+    width:87px;
+    height: 40px;
+    background-color: #e4e6e7;
+    border:none;
+    border-radius: 30px;
+    color:black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button-inactive{
+    width:87px;
+    height: 40px;
+    background-color: #9098a3;
+    border:none;
+    border-radius: 30px;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.buttons-status{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.buttons-add{
+    width: 52px;
+    height: 52px;
+    background-color: #081E34;
+    border-radius: 100px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.main-title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}

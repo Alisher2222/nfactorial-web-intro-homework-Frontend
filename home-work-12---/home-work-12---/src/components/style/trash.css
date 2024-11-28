@@ -1,0 +1,31 @@
+.trash-container{
+    width:fit-content;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E4E6E7;
+    padding: 10px 10px;
+    gap:15px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    position: absolute;
+    top:100%;
+    z-index: 1;
+}
+.trash-text{
+    color:#353535;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+.trash-icon{
+    width: 16px;
+    height: 16px;
+}
+.trash-row{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    cursor: pointer;
+}
