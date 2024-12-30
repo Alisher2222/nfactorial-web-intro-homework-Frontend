@@ -1,0 +1,104 @@
+.projects{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1A1A1A;
+    padding: 100px 0 50px 0;
+    gap:120px;
+}
+.projects-headder{
+    color: white;
+    font-size: clamp(3rem, 2vw, 5rem);
+    text-decoration: underline;
+    text-decoration-color: #F54B58;
+}
+.project{
+    width: 100%;
+    height: fit-content;
+    perspective: 600px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.project-right{
+    width: 100%;
+    height: fit-content;
+    perspective: 600px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: flex-end;
+}
+.projects-container{
+    width: 60%;
+    height: 400px;
+    background-color: #3216BB;
+    display: flex;
+    align-items: center;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+  }
+.projects-container:hover{
+    transform: translateZ(10px);
+}
+.projects-container-right:hover{
+    transform: translateZ(10px);
+}
+.project-image{
+    width: 60%;
+    height: auto;
+}
+.project-text{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.project-text-right{
+    position: absolute;
+    top: 35%;
+    right: 55%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.project-title{
+    font-size: clamp(25px, 3vw, 50px);
+    color: white;
+    font-weight: 700;
+}
+.project-description{
+    font-size: clamp(15px, 1.2vw, 20px);
+    color: white;
+}
+.project-href{
+    color:white;
+    text-decoration-color: #F54B58;
+    font-size: clamp(15px, 2vw, 20px);
+    letter-spacing: 1px;
+}
+.projects-container-right{
+    width: 60%;
+    height: 400px;
+    background-color: #3216BB;
+    display: flex;
+    align-items: center;
+    transform: translateZ(0);
+    transition: transform 0.3s ease;
+    justify-content: flex-end;
+  }
+@media(max-width:400px){
+    .project-text-right{
+        width: 45%;
+        top:15%;
+    }
+    .project-text{
+        top: 25%;
+        width: 45%;
+    }
+}
