@@ -24,7 +24,7 @@ export default function Projects(){
                     <p className="project-title">Portfolio</p>
                     <p className="project-description">
                     A responsive portfolio website built with HTML, CSS, React, Redux, and React Router DOM. It features smooth navigation, dynamic routing, state management, and showcases projects and skills in an interactive and user-friendly interface.</p>
-                    <a href="" className="project-href">Learn more</a>
+                    <a href="https://github.com/Alisher2222/nfactorial-web-intro-homework-Frontend/tree/main/home-work-14/portfolio" className="project-href">Learn more</a>
                 </div>
             </div>
         </div>
